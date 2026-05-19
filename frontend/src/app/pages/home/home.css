@@ -1,0 +1,64 @@
+.hero {
+  background-color: #1e1b4b; /* Dark Purple/Navy */
+  color: #faf5ff; /* Soft White */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.text-pink { color: #f472b6; }
+
+.search-box {
+  margin-top: 30px;
+}
+
+.search-box input {
+  padding: 15px 25px;
+  width: 300px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 15px 30px;
+  border-radius: 0 50px 50px 0;
+  border: none;
+  background-color: #d946ef; /* Pink */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subjects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  background-color: #faf5ff; /* Soft White/Lavender tint */
+}
+
+.card {
+  padding: 40px;
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.card-purple { background-color: #f3e8ff; color: #6b21a8; }
+.card-pink { background-color: #fce7f3; color: #be185d; }
+
+.card button {
+  margin-top: 15px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}

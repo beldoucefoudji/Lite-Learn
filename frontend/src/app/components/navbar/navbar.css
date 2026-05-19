@@ -1,0 +1,79 @@
+.navbar {
+  background-color: #ffffff; /* Soft White */
+  border-bottom: 2px solid #f3e8ff; /* Light Lavender border */
+  padding: 1rem 5%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #6b21a8; /* Deep Purple */
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: #d946ef; /* Pink */
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.btn-login {
+  background: none;
+  border: none;
+  color: #6b21a8;
+  font-weight: 700;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.btn-signup {
+  background-color: #a855f7; /* Purple */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 4px 14px 0 rgba(168, 85, 247, 0.39);
+  cursor: pointer;
+}
+
+
+.login-link {
+  color: #6b21a8; /* Purple */
+  font-weight: 600;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-signup {
+  background-color: #d946ef; /* Pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px; /* Makes it pill-shaped */
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-signup:hover {
+  background-color: #c026d3; /* Slightly darker pink on hover */
+  transform: scale(1.05); /* Makes it pop a little */
+}

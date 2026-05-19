@@ -1,0 +1,120 @@
+.login-wrapper {
+  
+  background: radial-gradient(circle at top right, #2e1065, #1e1b4b); 
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+ 
+  background: #1e1b4b; 
+  padding: 45px;
+  border-radius: 24px;
+  
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), 0 0 20px rgba(168, 85, 247, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid rgba(168, 85, 247, 0.2); /* Subtle lavender border */
+}
+
+h2 {
+  color: #faf5ff; 
+  margin-bottom: 8px;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: #c4b5fd; 
+  font-size: 0.95rem;
+  margin-bottom: 35px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #e9d5ff; 
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  /* Dark input field */
+  background-color: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #d946ef; 
+  box-shadow: 0 0 10px rgba(217, 70, 239, 0.2);
+}
+
+.btn-primary {
+  width: 100%;
+ 
+  background: linear-gradient(135deg, #d946ef, #a855f7);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(217, 70, 239, 0.4);
+}
+
+.footer-text {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.footer-text a {
+  color: #f472b6; /* Soft Pink link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+.back-home {
+  margin-top: 20px;
+}
+
+.back-home a {
+  color: #94a3b8; 
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.back-home a:hover {
+  color: #faf5ff; /* Glows white on hover */
+}
